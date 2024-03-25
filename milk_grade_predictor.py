@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 from PIL import Image
 
-img = Image.open("C:\\Users\\hp\\Downloads\\pexels-samer-d-1210005.jpg")
-model = pickle.load(open("C:\\Users\\hp\\Downloads\\milk_grade.pkl","rb"))
+img = Image.open("pexels-samer-d-1210005.jpg")
+model = pickle.load(open("milk_grade.pkl","rb"))
 
 st.title("Milk Quality Predictor")
 st.image(img)
